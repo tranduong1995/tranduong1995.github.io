@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+    font-family: 'roboto ', sans-serif;
+}
+
+
+
+img { max-width: 100%;
+
+}
+
+.card { 
+    max-width: 350px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    overflow:hidden;
+}
+.card-content h2 {
+    font-size: 19px;
+    color: #464646;
+    font-weight: 400px;
+
+}
+.card-content p {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100;
+
+}
+
+.card-content p i { 
+    color:yellow ;
+
+}
+.card-content {
+    padding: 16px;
+}
+
+.card-img {
+    height: 230px;
+}
+.card-img img { 
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content p  {
+    margin: 20px 0 ;
+}

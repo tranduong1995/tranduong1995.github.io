@@ -1,0 +1,18 @@
+h1{ color: green;}
+p { 
+    color: red;
+}
+
+#para-1 {
+    background-color: black;
+    color: chocolate;
+}
+
+.heading {
+    color: white;
+}
+
+.para-1.heading {
+color: yellow;
+}
+
