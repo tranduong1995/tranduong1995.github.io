@@ -1,0 +1,86 @@
+* {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto ', sans-serif;
+}
+
+.card {  width: 40%;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+    background-color: #30598c;
+    color: #fff;
+    font-size: 14px;
+    
+}
+.card ul li  {
+    margin-bottom: 20px;
+
+    list-style: none;
+   
+}
+    
+     
+.card-1 ul li  a {
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+.card-5 ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.card-2 ul li a   { 
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.card ul li a:hover {
+    color: gray;
+}
+
+.content a {
+    
+    padding-left: 70px;
+   
+}
+
+.facebook {
+    color: #fff;
+}
+
+.youtube {
+    color: #fff;
+}
+
+.github {
+    color:  #fff;
+}
+
+.card h4 {
+    margin: 25px 0 ;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
