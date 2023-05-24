@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+    font-family: 'roboto ', sans-serif;
+}
+
+
+.row { display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+img { max-width: 100%;
+
+}
+
+.card { 
+    
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    overflow:hidden;
+}
+.card-content h2 {
+    font-size: 19px;
+    color: #464646;
+    font-weight: 400px;
+
+}
+.card-content p {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100px;
+
+}
+
+.card-content p i { 
+    color:yellow ;
+
+}
+.card-content {
+    padding: 16px;
+}
+
+.card-img {
+    height: 230px;
+}
+.card-img img { 
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-content p  {
+    margin: 20px 0 ;
+}
+
+
+
+.card-item {
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+
+
+
+.row2 {
+     
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #30598c;
+    width: 1500px;
+   
+
+}
+ 
+    
+ 
+ 
+
+  .card-item1  {
+     
+    height: 500px;
+    color: #fff ;
+    
+   
+    font-size: 14px;
+    border: 2px solid red;
+    padding: auto;
+    
+     
+}
+
+.card-item1 ul li a {
+    text-decoration: none;
+    color: #fff ;
+    
+    
+}
+.card-item1 ul li {
+    list-style: none;
+    margin-bottom: 20px;
+     
+
+
+
+}
+
+.card-item1 ul li a:hover {
+    color: gray ;
+}
+.card-item1  {
+    padding:50px;
+   
+}
+.card-item1 h4 {
+    font-size: 18px;
+}
+  
+
+   
+.facebook {
+    color: #fff;
+}
+
+.youtube {
+    color: #fff;
+    padding: 0px 30px;
+
+}
+
+.github {
+    color:  #fff;
+}
+  
+ 
+ 

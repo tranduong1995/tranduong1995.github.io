@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+    font-family: 'roboto ', sans-serif;
+}
+
+
+.row { display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+img { max-width: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.header {
+    background-color: #30598c;
+    color: #fff;
+
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    height: 62px;
+}
+
+
+.header-container {
+    padding: 0 30px ;
+    height: 100%;
+     
+}
+
+.logo img {
+    height: 37px;
+    object-fit: cover;
+    width: 100px;
+}
+
+ .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+     
+ }
+ .sidebar {
+    display: flex;
+    align-items: center;
+
+ }
+ .avata img {
+    border-radius: 50%;
+    height: 30px;
+    object-fit: cover;
+    width: 30px
+ }
+.avata {
+    margin-left: 30px;
+}
+.cart-icon {
+    font-size: 20px;
+}
+ .menu .main-menu {
+    display: flex;
+ }
+ .menu .main-menu .menu-item {
+    
+    text-transform: uppercase;
+    margin-right: 24px;
+    position: relative;
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+.menu-item:hover {
+    color: #c4c4c4;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    right: 0;
+     
+    top: 100%; 
+    border-radius: 4px;
+    display: none;
+}
+.menu .main-menu .menu-item:hover .sub-menu {
+    display: block;
+}
+.sub-menu-item {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 16px;
+    text-align: center;
+    text-transform: none;
+    color: #464646;
+
+}
+.sub-menu-item:hover {
+    background-color: #c4c4c4;
+    color:#fff ;
+
+}
+ .cart-count {
+    background-color: #26a69a;
+    position: absolute;
+    top: 3px;
+    font-size: 15.2px;
+    width: 20.6px;
+    height: 22.7;
+   text-align: center;
+   
+ }
+
+
+
+ 
+ .cart1 {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.cart1-ss {
+   
+    width: 60px;
+    height: 60px;
+    background-color: #0084ff;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+ 
+ .cart-icon1 {
+    font-size: 40px;
+   
+    color: #fff;
+    position: fixed;
+    bottom: 27px;
+    right: 30px;
+   
+
+ }
+
+
+ .cart2 {
+    display: flex;
+    text-align: center;
+ }
+
+ .cart2-ss {
+    width: 60px;
+    height: 60px;
+    background-color: #0084ff;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+
+ }
+ .cart-icon2 { 
+    font-size: 35px;
+   
+    color: #fff;
+    position: fixed;
+    bottom: 110px;
+    right: 34px;
+
+ }
+ 
+
+ 
+
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.card { 
+    
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    overflow:hidden;
+}
+
+.card-img:hover {
+    transform: scaleX(1.2);
+     
+    
+}
+
+.card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .55);
+}
+.card-content h2 {
+    font-size: 19px;
+    color: #464646;
+    font-weight: 400px;
+
+}
+.card-content p {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100px;
+
+}
+
+
+.card-content div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card a {
+    text-decoration: none;
+}
+  
+
+
+.card-content p i { 
+    color:yellow ;
+
+}
+.card-content {
+    padding: 16px;
+}
+
+.card-img {
+    height: 230px;
+    transition: all 1s;
+    overflow: hidden;
+}
+.card-img img { 
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-content p  {
+    margin: 20px 0 ;
+}
+
+
+
+.card-item {
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+
+
+.row2 {
+     
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #30598c;
+    width: 1500px;
+   
+
+}
+ 
+    
+ 
+ 
+
+  .card-item1  {
+     
+    height: 400px;
+    color: #fff ;
+    
+   
+    font-size: 14px;
+    
+    padding: 50px 20px ;
+    
+    }
+
+.card-item1 ul li a {
+    text-decoration: none;
+    color: #fff ;
+     
+    
+}
+.card-item1  ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+.card-item1.card4 ul li {
+    margin-bottom: 50px;
+}
+.card-item1 ul li a:hover {
+    color: gray ;
+}
+ 
+   
+ 
+.card-item1 h4 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+ 
+  
+
+   
+.facebook {
+    color: #fff;
+}
+
+.youtube {
+    color: #fff;
+    padding: 0px 30px;
+
+}
+
+.github {
+    color:  #fff;
+}
+
+ 
+ 

@@ -1,0 +1,81 @@
+  
+
+body{
+    font-family: 'roboto ', sans-serif;
+}
+ .row {
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #30598c;
+   
+   
+    
+
+     
+}
+ 
+    
+ 
+
+.container {
+   
+    margin: auto;
+     background-color: #fff;
+}
+
+.card-item  {
+    width: 300px;
+    height: 350px;
+    color: #fff ;
+    border: 2px solid red;
+    font-size: 14px;
+  
+}
+
+.card-item ul li a {
+    text-decoration: none;
+    color: #fff ;
+    
+    
+}
+.card-item ul li {
+    list-style: none;
+    margin-bottom: 20px;
+     
+
+
+
+}
+
+.card-item ul li a:hover {
+    color: gray ;
+}
+   h4 {
+    padding-left: 35px;
+    margin: 25px 0 ;
+    font-size: 18px;
+   }
+
+   
+.facebook {
+    color: #fff;
+}
+
+.youtube {
+    color: #fff;
+}
+
+.github {
+    color:  #fff;
+}
+.content a {
+    
+    padding-left: 70px;
+   
+}
+ 
+ 

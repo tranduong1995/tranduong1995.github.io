@@ -1,0 +1,15 @@
+div.header
+     div.header-container - set with, cho vào giữa 
+         div.header-inner - dàn layout áp dụng flex 
+             div.logo
+               img
+            div.sidebar
+               div.memu
+                  ul
+                    li
+                    li
+                    li
+                    li
+                div.card 
+                     span  - chứa icon 
+                     span - chứa số         
