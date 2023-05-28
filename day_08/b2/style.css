@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'roboto ', sans-serif;
+}
+
+.header {
+    background-color: green;
+    color: #fff;
+
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    height: 100px;
+
+}
+
+
+.header-container {
+    padding: 0 30px;
+    height: 100%;
+}
+
+.logo img {
+    height: 37px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+}
+.sidebar {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.menu ul  {
+    display: flex;
+   
+    
+    
+    
+}
+
+ .menu-item a {
+    text-decoration: none;
+    color: #f9e9e2;
+ }
+ .menu-item:hover a {
+    color: #ED1C24;
+ }
+ 
+.menu ul li {
+    text-transform: uppercase;
+    margin-right: 70px;
+    position: relative;
+    height: 62px;
+    display: flex;
+    align-items: center;
+     
+}
+
+
+
+.cart-count {
+    background-color: red;
+    position: absolute;
+    top: 19px;
+    font-size: 16px;
+    width: 20.6px;
+    height: 22.7;
+    text-align: center;
+    border-radius: 5px;
+    animation:count 1s infinite ;
+
+}
+@keyframes count {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+
+}
+
+
+.cart-icon {
+    font-size: 30px;
+  
+
+
+}
+
+
+
+
+
+.container3 { 
+    width: 1050px; ;
+     
+   padding: 30px 50px;
+   position: relative;
+   left: 120px;
+   right: 120px;
+}
+ .ngoc {
+    width: 100%
+     
+    
+     
+ }
+ .container3 .content img {
+    width: 950px;
+    height: 450px;
+     
+  }
+  .ngoc .content  p {
+    
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  .ngoc h1 {
+    padding-bottom: 20px;
+  }
+
+  .content h2 {
+    padding: 15px 0px;
+  }
+  .author-box {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .content h4 {
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+
+
+
+.footer {
+    width: 1250px;
+    padding: 25px 10px ;
+
+}
+.row1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    color: #fff;
+    padding-top: 20px ;
+     
+}
+.card-item1   {
+    flex-basis: 25%;
+    padding:10px ;
+    
+}
+ 
+
+.card1 ul li  {
+    padding: 5px 40px;
+    display: flex;
+    display: flex;
+    align-items: center;
+     line-height: 25px;
+
+}
+.card1 h4 {
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}

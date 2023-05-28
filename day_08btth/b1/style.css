@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'roboto ', sans-serif;
+}
+
+.header {
+    background-color: green;
+    color: #fff;
+
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+
+}
+
+
+.header-container {
+    padding: 0 30px;
+    height: 100%;
+    
+}
+
+.logo img {
+    height: 37px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+}
+.sidebar {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.menu ul  {
+    display: flex;
+   
+    
+    
+    
+}
+
+ .menu-item a {
+    text-decoration: none;
+    color: #f9e9e2;
+ }
+ .menu-item:hover a {
+    color: #ED1C24;
+ }
+ 
+.menu ul li {
+    text-transform: uppercase;
+    margin-right: 70px;
+    position: relative;
+    height: 62px;
+    display: flex;
+    align-items: center;
+     
+}
+
+
+
+.cart-count {
+    background-color: red;
+    position: absolute;
+    top: 19px;
+    font-size: 16px;
+    width: 20.6px;
+    height: 22.7;
+    text-align: center;
+    border-radius: 5px;
+    animation:count 1s infinite ;
+
+}
+@keyframes count {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+
+}
+
+
+.cart-icon {
+    font-size: 30px;
+  
+
+
+}
+
+
+
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+     
+}
+
+.card-img img { 
+    height: 100%;
+    object-fit: cover;
+    width: 300px;
+     
+}
+
+.card .card-img {
+    display: flex;
+    justify-content: center;
+     transition: all 0.5s;
+    overflow: hidden;
+}
+
+ 
+ 
+
+
+.card { 
+    
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    overflow:hidden;
+    border: 0.5px solid gray;
+}
+.card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .55);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+     
+
+     
+}
+ 
+.card-item   {
+    flex-basis: 33.33%;
+    padding:10px ;
+
+}
+.card-content h3 {
+    line-height: 25px;
+}
+
+.showgia.area_price strong {
+    font-size: 16px;
+    display: block;
+    color: #ED1C24;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.linethough {
+    color: #999999;
+    text-decoration-line: line-through;
+    font-size: 14px;
+}
+.cplb-disc {
+    background: #f9e9e2;
+    border-radius: 2px;
+    color: #ef5555;
+    margin-left: 10px;
+    padding: 2px 2px;
+    font-size: 12px;
+}
+  
+.item-rating .icon {
+     padding-top: 2px;
+    height: 12px;
+    margin-left: 2px;
+    margin-right: 1px;
+    color: yellow;
+}
+ 
+ 
+ .card-img:hover {
+    transform: scaleX(1.2);
+     
+    
+}
+.buy {
+    width: 100px;
+    height:30px ;
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    animation: flats linear 3s infinite;
+     
+}
+@keyframes flats {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.card-content {
+    padding: 15px 15px;
+}
+
+
+.anhchinh {
+    padding: 70px 5px;
+    position: relative;
+    top: 80px;
+}
+
+  
+.dhnam {
+    
+    font-size: 36px;
+    line-height: 1.1;
+    color: #f05510;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px
+ 
+ 
+}
+
+.dhnu {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #f05510;
+ 
+}
+
+
+
+.footer {
+    width: 1250px;
+    padding: 25px 10px ;
+
+}
+.row1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    color: #fff;
+    padding-top: 20px ;
+     
+}
+.card-item1   {
+    flex-basis: 25%;
+    padding:10px ;
+    
+}
+ 
+
+.card1 ul li  {
+    padding: 5px 40px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+
+}
+.card1 h4 {
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
